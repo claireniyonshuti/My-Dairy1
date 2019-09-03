@@ -44,8 +44,8 @@ body{
     font-family: sans-serif
 }
 .navbar ul li a:hover {
-    color:wheat;
-    background: green;
+    color:rgb(8, 30, 51);
+    background: rgb(252, 253, 247);
    
 }
 
