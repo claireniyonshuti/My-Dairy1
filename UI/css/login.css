@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(/UI/assets/img/backk.jpg);
+    background-image: url(../assets/img/backk.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
