@@ -18,6 +18,7 @@ const deleteEntry = (req, res) => {
         status: 400,
         message: 'Entry not found',
       }); 
+      
   };
 
   export default deleteEntry;
