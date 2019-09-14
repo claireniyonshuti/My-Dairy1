@@ -1,0 +1,28 @@
+{
+  "name": "my-dairy1",
+  "version": "1.0.0",
+  "description": "Dairy entries",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "0.0.1-security",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claireniyonshuti/My-Dairy1.git"
+  },
+  "author": "Claire Niyonshuti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claireniyonshuti/My-Dairy1/issues"
+  },
+  "homepage": "https://github.com/claireniyonshuti/My-Dairy1#readme"
+}
