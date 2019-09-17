@@ -1,2 +1,2 @@
-web: nodemon --exec babel-node index.js
+web: node -r esm index.js
 
