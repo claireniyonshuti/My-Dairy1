@@ -1,3 +1,2 @@
-web: node index.js
-"start": "nodemon --exec babel-node index.js",
+web: nodemon --exec babel-node index.js
 
