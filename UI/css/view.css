@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/img/backk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    
+}
+.container{
+    background-image: url(../assets/img/backk.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    margin-top: 0px;
+    background-color: rgba(52, 70, 87, 0.931);
+    height: 66px;
+    
+}
+.navbar ul li {
+    list-style-type: none;
+    
+    
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -60px;
+    margin-right: 0px;
+    margin-left: auto;
+    
+}
+.navbar ul li a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;  
+    font-family: sans-serif
+}
+.navbar ul li a:hover {
+    color:rgb(8, 30, 51);
+    background: rgb(252, 253, 247);
+   
+}
+
+
+

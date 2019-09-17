@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/img/backk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    
+}
+.container{
+    background-image: url(../assets/img/backk.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    margin-top: 0px;
+    background-color: rgba(52, 70, 87, 0.931);
+    height: 66px;
+    
+}
+.navbar ul li {
+    list-style-type: none;
+    
+    
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -60px;
+    margin-right: 0px;
+    margin-left: auto;
+    
+}
+.navbar ul li a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;  
+    font-family: sans-serif
+}
+.navbar ul li a:hover {
+    color:rgb(8, 30, 51);
+    background: rgb(252, 253, 247);
+   
+}
+
+.logo{
+    margin-top: 0px;
+    padding: 0px;
+    padding-right: 0px;
+}
+.login{
+    width: 320px;
+    height: 420px;
+    background: rgba(52, 70, 87, 0.931);
+    color: #ffffff;
+    top:10%;
+    justify-content: center;
+    margin-top: 100px;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    margin-left: 5%;
+    border-radius: 18px;
+
+}
+.user{
+    width: 100px;
+    height: 100px;
+    margin-top: -80px;
+    margin-left: 72px;
+
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login input{
+    width: 100%;
+    margin-bottom:20px;
+}
+.login input[type="text"], input [type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: burlywood;
+    color:#000;
+    font-size: 18px;
+    border-radius: 20px;
+    
+}
+
+.login input[type="submit"]:hover{
+    cursor: pointer;
+    background: lightblue;
+    color:#000;
+}
+.login a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color:lightblue;
+    
+}
+
+.regist{
+    width: 360px;
+    height: 570px;
+    background: rgba(52, 70, 87, 0.931);
+    color: #ffffff;
+    justify-content: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    margin-left: 5%;
+    border-radius: 18px;
+
+}
+::placeholder{
+text-align: center;
+}
+.regist p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.regist input{
+    width: 100%;
+    margin-bottom:20px;
+}
+.regist input[type="text"], input [type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.regist input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 260px;
+    background: burlywood;
+    color:#000;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.regist input[type="submit"]:hover{
+    cursor: pointer;
+    background: lightblue;
+    color:#000;
+}
+.regist a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color:lightblue;
+    
+}
