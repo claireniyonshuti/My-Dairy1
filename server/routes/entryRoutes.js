@@ -5,7 +5,6 @@ import postEntry from '../controler/postEntry';
 import updateEntry from '../controler/updateEntry';
 import deleteEntry from '../controler/deleteEntry';
 
-
 const router = express.Router();
 
 router.get ('/api/v1/entries', getAllEntries);
