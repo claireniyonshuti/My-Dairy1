@@ -11,7 +11,7 @@ height: 66px;
 .navbar ul li {
 list-style-type: none;
 
-
+  
 }
 .navbar ul{
 display: flex;
@@ -63,7 +63,7 @@ padding-right: 0px;
     justify-content: flex-end;
 }
 .entr{
-    margin-left: 340px;
+    margin-left: 330px;
     margin-top: 62px;
 }
 .profile{

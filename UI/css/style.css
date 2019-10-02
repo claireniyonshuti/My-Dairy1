@@ -1,9 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    min-height: 100vh;
-     background: lightblue;
-     border: 5px solid rgb(11, 172, 12)
+     
  }
 
 *{
@@ -55,10 +53,9 @@ body{
     height: 100vh;
 }
 .welcome{    
-    margin-top: 60px;
+    margin-top: 124px;
     color:white;
     font-family: sans-serif;
-    
 
 }
 .head{
@@ -139,7 +136,7 @@ body{
 .content1{
     background-color:  rgb(19, 63, 93);
     width: 230vh;
-    height: 44vh;
+    height: 36vh;
     color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     
@@ -151,21 +148,24 @@ body{
     margin-top: 10px;
     text-shadow: 1px 1px 1px #ccc;
     font-size: 1.5em;
+    padding-right: 4px;
+    padding: 14px;
 }
 .about{
-    margin-left: 340px;
-    margin-top: -120px;
+    margin-left: 460px;
+    margin-top: -145px;
+    
 }
 .ab{
-    width: 140px;
+    width: 210px;
 }
 
 .footer{
-    background-color: rgb(19, 63, 93);
-    height: 30px;
-    width: 1348px;
+    background-color: rgba(19, 63, 93,0.9);
+    height: 20px;
+    width: 1349px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 71px;
     color: white;
     font-family: sans-serif;
 
@@ -220,6 +220,15 @@ button{
 
 button:hover{
     color:rgb(8, 30, 51);
-    background: rgb(252, 253, 247);
+    background: rgb(41, 41, 41);
 }
 
+.contact{
+    padding: 20px;
+    margin-top: -50px;
+}
+
+.sub{
+    margin-left: 950px;
+    margin-top: -23px;
+}

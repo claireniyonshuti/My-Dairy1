@@ -51,7 +51,7 @@ body{
 }
 
 .profile{
-    margin-top: -574px;
+    margin-bottom: -404px;
   
 }
 
@@ -64,5 +64,6 @@ body{
   width:300px;
   height: 430px;
   font-size: 22px;
+  margin-top: 804px;
 }
 
