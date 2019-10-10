@@ -16,4 +16,5 @@ describe('Equality Checks', function(){
 //     it(checks type', functioon(){
 //         expect('Somethinbg ')
 //     }
+//cd server && nyc --reporter=text
 // }
