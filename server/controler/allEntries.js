@@ -1,11 +1,17 @@
-import dairyEntry from "../model/dairy";
+import { pool } from '../../Database/services/db';
 
-const getAllEntries =(req, res) => {
+const getAllEntries = async(req, res) => {
+
+    
+    const query = 'SELECT * FROM DiaryEntry';
+    const result = await pool.query(query);
+    
     res.status(200).json({
-      status: 'true',
+      status: 200,
       message: 'Retrieved successfully',
-      data: dairyEntry,
-    })
+      DairyEntry: result.rows,
+    });
+   
   };
 
 export default getAllEntries;

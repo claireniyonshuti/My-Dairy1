@@ -1,11 +1,18 @@
 import dairyEntry from '../model/dairy';
+import entryvalidation from '../validation';
 
 const updateEntry = (req, res) => {
     const id = parseInt(req.params.id, 10);
+
     let modifyFound;
     let itemIndex;
+ 
     dairyEntry.map((dairy, index) => {
       if (dairy.id === id) {
+        const { error } = entryvalidation.validate(req.body);
+if (error) {
+return res.status(400).json({ status: 400, error: error.details[0].message });
+}
         modifyFound = dairy;
         itemIndex = index;
       }
@@ -33,10 +40,14 @@ const updateEntry = (req, res) => {
     const modifiedEntry = {
       id: modifyFound.id,
       title: req.body.title || modifyFound.title,
-      description: req.body.description || modifyFound.description,
+      description: req.body.description || modifyFound.description.trim(),
     };
+
+
   
     dairyEntry.splice(itemIndex, 1, modifiedEntry);
+    dairyEntry = dairyEntry.trim();
+
   
     return res.status(201).send({
       status: 200,
@@ -46,3 +57,5 @@ const updateEntry = (req, res) => {
   };
 
   export default updateEntry;
+
+ 
