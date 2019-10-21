@@ -36,8 +36,15 @@ const createTables = () => {
         confirm_password VARCHAR(128) NOT NULL
       )`;
       
+      const loginTable = `CREATE TABLE IF NOT EXISTS
+      DairyUsers(
+        user_id SERIAL PRIMARY KEY,
+        username VARCHAR(128) NOT NULL
+        password VARCHAR(128) NOT NULL,
+        
+      )`;
 
-  pool.query(`${entryTable};${userTable}`)
+  pool.query(`${entryTable};${userTable};${loginTable};`)
     .then((res) => {
       console.log(res);
       pool.end();
